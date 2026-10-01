@@ -2,9 +2,9 @@
 
 # Mohamed Abdelwahab
 
-### Automation Consultant · Agentic AI Engineer · RPA Developer
+### Automation Consultant · AI Solutions Architect · Agentic AI Engineer · Senior RPA Developer
 
-**I design intelligent automation systems that connect AI agents, workflows, APIs, documents, and business operations.**
+**I design enterprise automation systems that connect AI reasoning, RPA, APIs, documents, approvals, and business operations with clear controls and human oversight.**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-0A66C2?style=for-the-badge)](https://Mohamed3bdelwahab.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Mohamed3bdelwahab-181717?style=for-the-badge&logo=github)](https://github.com/Mohamed3bdelwahab)
@@ -13,66 +13,100 @@
 
 ---
 
-## What I Build
+## What I Do
 
-- **Agentic AI systems** — multi-step agents, approval loops, tool use, orchestration, and human-in-the-loop workflows.
-- **RPA & business automation** — repetitive process automation, desktop/web workflows, reporting, document handling, and operational integrations.
-- **Workflow engineering** — approval flows, intelligent routing, API-connected processes, and resilient automation pipelines.
-- **AI-assisted applications** — Python/FastAPI backends, web interfaces, automation services, and LLM-powered productivity tools.
-- **Intelligent document workflows** — document parsing, transformation, diagram generation, and task-specific automation utilities.
+I bring **10 years of software, automation, and workflow engineering experience** to enterprise transformation work. My focus is not simply automating tasks — it is designing reliable operating systems around people, business rules, AI reasoning, integrations, and governance.
 
-## Selected Public Work
+- **Agentic AI systems** — RAG, tool/function calling, memory, routing, multi-agent orchestration, verification, and human-in-the-loop controls.
+- **Enterprise RPA** — UiPath and deterministic automation across desktop, web, Citrix, reporting, document, ERP, and operational workflows.
+- **Microsoft Power Platform** — Power Automate, Power Apps, Power Pages, Dataverse, AI Builder, and Copilot Studio.
+- **Intelligent document processing** — OCR, classification, extraction, validation, confidence-based routing, and human review.
+- **Enterprise integration** — REST APIs, WebSocket services, SQL, SAP, Oracle NetSuite, Salesforce, Citrix, and legacy ERP systems.
+- **Automation consulting** — discovery, AS-IS/TO-BE mapping, architecture, PDD/SDD, UAT, deployment, monitoring, governance, and continuous improvement.
 
-### RPA
-A collection of practical RPA work demonstrating automation-focused development and workflow implementation.
+## Selected Architecture & Automation Work
 
-**Stack:** Visual Basic .NET · RPA concepts · Workflow automation  
-[View repository →](https://github.com/Mohamed3bdelwahab/RPA)
+### Enterprise Multi-Agent Workflow
+**Problem:** Business processes require reasoning across multiple systems, but uncontrolled autonomous execution creates operational risk.
+**Approach:** RAG and vector retrieval support context; specialized agents route tasks, call APIs/tools, maintain workflow memory, verify outputs, and escalate sensitive actions for human approval.
+**Value:** AI reasoning is separated from deterministic execution so cross-system work remains observable, reviewable, and auditable.
 
-### AdvancedDaigram
-Public diagramming work focused on turning structured ideas into clearer visual workflows.
+### Agentic AI + Legacy ERP
+**Problem:** Important business systems may have no usable modern API while still requiring structured record creation and updates.
+**Approach:** Deterministic RPA is exposed as a callable agent tool. The AI layer decides what action is required; the automation layer performs the transaction and returns a result that can be validated.
+**Value:** Legacy systems become usable inside modern AI workflows without giving the AI direct, uncontrolled access to the application.
 
-[View repository →](https://github.com/Mohamed3bdelwahab/AdvancedDaigram)
+### Procurement Approval Architecture
+**Problem:** PR/PO approval needs to respect amount thresholds, hierarchy, departments, roles, segregation of duties, rejection/resubmission paths, and SLA escalation.
+**Approach:** Deterministic routing rules, ERP integration, explicit approval states, exception handling, and audit history are designed as first-class workflow components.
+**Value:** Approval automation becomes transparent and governable instead of being a collection of hidden email or spreadsheet steps.
 
-## Private / Current Engineering Work
+### Intelligent Document Processing
+**Problem:** Document-heavy processes fail when extraction confidence, exceptions, and human review are treated as afterthoughts.
+**Approach:** OCR, classification, metadata extraction, confidence thresholds, validation, human review, and downstream routing are separated into controlled stages.
+**Value:** Document automation remains recoverable, measurable, and suitable for enterprise operations.
 
-I also maintain private projects across:
+### Arabic AI / NLP Workflows
+Arabic and multilingual content collection, classification, sentiment analysis, confidence-aware routing, and context-aware response preparation with human review paths for low-confidence or sensitive outputs.
 
-- AI-assisted job application automation using **FastAPI + Next.js + agent runtimes**
-- **Agentic approval workflows** and human-in-the-loop systems
-- AI workflow orchestration and autonomous task execution
-- AI-assisted flowchart and diagram generation
-- Document automation utilities and PDF processing
-- API-driven AI services and integration prototypes
+### Career Pilot AI
+Agent-supported workflow for job discovery, screening, fit evaluation, application preparation, interview preparation, and CV enhancement while keeping user review in the decision path.
 
-Private repositories stay private by design; architecture and implementation details can be discussed when appropriate.
+## Business Domains
+
+`Finance` · `Procurement` · `HR` · `Investment Operations` · `Customer Operations`
 
 ## Core Toolkit
 
-`Python` · `FastAPI` · `JavaScript` · `Next.js` · `HTML/CSS` · `REST APIs` · `Git/GitHub`  
-`RPA` · `Workflow Automation` · `Agentic AI` · `Human-in-the-Loop` · `Process Automation`
+**UiPath & RPA**
+`UiPath Studio` · `UiPath Orchestrator` · `REFramework` · `Queues` · `Assets` · `Document Understanding`
 
-## How I Approach Automation
+**Microsoft Power Platform**
+`Power Automate` · `Power Apps` · `Power Pages` · `Dataverse` · `AI Builder` · `Copilot Studio`
+
+**Agentic AI & GenAI**
+`LangChain` · `LangGraph` · `CrewAI` · `RAG` · `Vector Search` · `Embeddings` · `MCP` · `Tool/Function Calling` · `Routing` · `Memory` · `Multi-Agent Orchestration` · `Human-in-the-Loop`
+
+**Engineering & Integration**
+`Python` · `FastAPI` · `Flask` · `C#` · `VB.NET/VBA` · `JavaScript` · `PowerShell` · `SQL` · `REST APIs` · `WebSocket` · `Docker` · `Git` · `n8n`
+
+**Enterprise Platforms**
+`SAP` · `Citrix` · `Oracle NetSuite` · `Salesforce` · `SQL Databases` · `Legacy ERP`
+
+**Voice & Conversational AI**
+`STT` · `TTS` · `Audio Processing` · `Noise Suppression` · `VAD` · `Turn Detection` · `Streaming` · `WebRTC`
+
+## Delivery Lifecycle
 
 ```text
-Business Process
-      ↓
-Discover repetitive / decision-heavy work
-      ↓
-Design workflow + system boundaries
-      ↓
-Automate deterministic steps with RPA/APIs
-      ↓
-Add AI agents where reasoning is valuable
-      ↓
-Keep approvals and controls where humans matter
-      ↓
-Measure, observe, and improve the workflow
+Business outcome + stakeholders
+          ↓
+Discover and map AS-IS process
+          ↓
+Design TO-BE workflow + controls
+          ↓
+Choose API / RPA / AI layers
+          ↓
+Architecture + PDD / SDD
+          ↓
+Build integrations and reusable components
+          ↓
+Test + UAT + deployment
+          ↓
+Monitor + govern + continuously improve
 ```
 
-## Explore My Portfolio
+## Selected Public Work
 
-For a more complete view of my automation, Agentic AI, and RPA work:
+### [RPA](https://github.com/Mohamed3bdelwahab/RPA)
+Practical RPA development and workflow automation work demonstrating automation-focused engineering.
+
+### [AdvancedDaigram](https://github.com/Mohamed3bdelwahab/AdvancedDaigram)
+Diagram-oriented work for communicating workflows, architectures, and structured ideas visually.
+
+## Portfolio
+
+For the deeper architecture view, case studies, experience, technology landscape, and credentials:
 
 ### **[Mohamed3bdelwahab.github.io](https://Mohamed3bdelwahab.github.io)**
 
@@ -80,7 +114,7 @@ For a more complete view of my automation, Agentic AI, and RPA work:
 
 <div align="center">
 
-**Automation should remove friction — not control.**  
-I build systems that make work faster, clearer, and more intelligent.
+**Automation should remove friction — not control.**
+I build systems that make work faster, clearer, auditable, and more intelligent.
 
 </div>
