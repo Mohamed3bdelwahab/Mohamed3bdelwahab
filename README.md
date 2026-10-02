@@ -101,8 +101,11 @@ Monitor + govern + continuously improve
 ### [RPA](https://github.com/Mohamed3bdelwahab/RPA)
 Practical RPA development and workflow automation work demonstrating automation-focused engineering.
 
+### [n8n-standalone-automation](https://github.com/Mohamed3bdelwahab/n8n-standalone-automation)
+Documentation of hands-on standalone/self-hosted n8n installation and workflow-orchestration usage. Public examples are intentionally sanitized; private workflows and credentials are not published.
+
 ### [AdvancedDaigram](https://github.com/Mohamed3bdelwahab/AdvancedDaigram)
-Diagram-oriented work for communicating workflows, architectures, and structured ideas visually.
+Reserved public diagramming repository. The implementation is not publicly released there yet; current diagram-simulator work is documented separately.
 
 ## Portfolio
 
